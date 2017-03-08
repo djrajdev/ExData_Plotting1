@@ -41,7 +41,7 @@ points(electricdat$Time, electricdat$Sub_metering_3,
 legend('topright', col=c('black', 'red', 'blue'), lty=1,
        legend=names(electricdat)[7:9])
 plot(electricdat$Time, electricdat$Global_reactive_power,
-     type='l', xlab='datetime')
+     type='l', ylab='Global_reactive_power',xlab='datetime')
 dev.off()
 
 
